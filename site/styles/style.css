@@ -1,5 +1,6 @@
 body {
   background-image: linear-gradient(180deg, var(--bs-secondary-bg), var(--bs-body-bg) 100px, var(--bs-body-bg));
+  font-family: "Montserrat";
 }
 
 .logo-nav {
@@ -97,6 +98,8 @@ body {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 768px) {
@@ -166,4 +169,13 @@ body {
 
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block !important;
+}
+
+.action-button {
+  background-color: #12ceb5;
+  border-color: #12ceb5;
+}
+
+.text-percent {
+  color: #12ceb5 !important;
 }
